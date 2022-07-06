@@ -5,39 +5,74 @@ body {
 .top-banner {
     background-image: url(/images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 700px;
     background-size: cover;
     text-align: center;
     color: bisque;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
-.top-text {
-    width: 50%px;
+.top-size {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
-.hsize {
-    font-size: 60px;
+p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+
 }
 
-.psize {
-    font-size: 20px;
-    color: white;
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+
 }
 
 .link {
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 800;
     border: 1px solid ghostwhite;
     background-color: tomato;
     color: ghostwhite;
     padding: 20px;
     border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
 .link-mar {
     margin-top: 70px;
+}
+
+.p-size {
+    font-size: 20px;
+    color: white;
+}
+
+.h-size {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
 }
 
 #today {
@@ -45,13 +80,17 @@ body {
     text-align: center;
 }
 
-.psize1 {
-    font-size: 24px;
-    color: gray;
+.p-size1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
 }
 
 #amount {
-    margin: 150px;
+    margin: 100px;
     text-align: center;
 }
 
@@ -79,6 +118,18 @@ body {
     width: 50%;
     text-align: center;
     margin-left: 25%;
+}
+
+#taka {
+    border: none;
+    text-align: center;
+    color: #D9DBE1;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 1px solid #DADADA;
+    background-color: #DADADA;
 }
 
 #plan {
@@ -119,42 +170,51 @@ body {
 
 .flexible {
     display: flex;
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 9%;
 }
 
-.life {
-    padding-top: 50px;
+.img-size img {
+    width: 170%;
+    margin-left: 50px;
 }
 
-.imgsize img {
-    width: 100%;
-    margin-left: 40px;
+.h-size1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+
 }
 
-.hsize1 {
-    font-size: 35px;
-}
+.p-size2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
 
-.psize2 {
-    font-size: 20px;
 }
 
 .contribute {
     margin-bottom: 100px;
 }
 
-.imgsize1 {
-    margin-right: 50px;
-}
-
-.imgsize1 img {
-    width: 100%;
-}
-
 .flexible1 {
     display: flex;
     width: 80%;
+    margin-left: 7%;
+}
+
+.img-size1 {
+    margin-right: 20%;
+}
+
+
+.img-size1 img {
+    width: 140%;
 }
 
 #form {
@@ -162,11 +222,11 @@ body {
 }
 
 form {
-    background-color: rgb(251, 238, 226);
+    background-color: #FFF4D6;
     height: 150px;
     width: 70%;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 6%;
     margin: 5% 0 10% 15%;
 }
 
@@ -178,7 +238,11 @@ form {
     padding-left: 10px;
     margin-right: -4px;
     border-radius: 5px 0px 0px 5px;
-    color: grey;
+    color: #AA9F9F;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 #subscribe {
@@ -188,6 +252,10 @@ form {
     height: 49px;
     border-radius: 0 5px 5px 0;
     color: #FAFAFA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 footer {
@@ -195,10 +263,21 @@ footer {
     padding-top: 5%;
     background-color: black;
     height: 200px;
+}
+
+#humble {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF5959;
+}
+
+#do {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
     color: #D9DBE1;
 }
