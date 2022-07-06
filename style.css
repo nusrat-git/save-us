@@ -27,7 +27,7 @@ body {
 
 .link {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     border: 1px solid ghostwhite;
     background-color: tomato;
@@ -72,40 +72,79 @@ body {
     padding: 50px;
     margin-left: 40px;
 }
-#other{
+
+#other {
     box-sizing: border-box;
     height: 50px;
     width: 50%;
     text-align: center;
     margin-left: 25%;
 }
-#plan{
+
+#plan {
     text-align: center;
     margin-top: 20%;
 }
-#arrange{
+
+#arrange {
     width: 80%;
     display: flex;
     margin: 5% 0 10% 10%;
 }
-.information{
+
+.information {
     margin-left: 20px;
 }
-#food{
-    background-color:  rgba(79, 157, 166, 0.1);
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
     padding: 60px;
     height: 250px;
     border-radius: 5px;
 }
-#shelter{
+
+#shelter {
     padding: 60px;
     height: 250px;
     background-color: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
 }
-#education{
+
+#education {
     padding: 60px;
     height: 250px;
-    background-color: rgb(238,224,202);
+    background-color: rgb(238, 224, 202);
     border-radius: 5px;
+}
+
+.flexible {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.life{
+    padding-top: 50px;
+}
+.imgsize img {
+    width: 100%;
+    margin-left: 40px;
+}
+.hsize1{
+    font-size: 35px;
+}
+.psize2{
+    font-size: 20px;
+}
+.contribute{
+    margin-bottom: 100px;
+}
+.imgsize1{
+    margin-right: 50px;
+}
+.imgsize1 img{
+    width: 100%;
+}
+.flexible1{
+    display: flex;
+    width: 80%;
 }
