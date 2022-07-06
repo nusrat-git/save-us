@@ -184,7 +184,6 @@ hr {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    line-height: 54px;
     color: #121212;
 
 }
@@ -215,6 +214,32 @@ hr {
 
 .img-size1 img {
     width: 140%;
+}
+
+#news{
+    text-align: center;
+    margin-top: 150px;
+ } 
+
+.flexible2{
+    width: 60%;
+    display: flex;
+    margin-left: 13%;
+    margin-bottom: 200px;
+}
+.disaster{
+    padding: 40px;
+}
+
+.link2{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px 20px;
+    color: #121212;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 #form {
